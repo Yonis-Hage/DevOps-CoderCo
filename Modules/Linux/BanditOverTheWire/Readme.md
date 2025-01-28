@@ -1,4 +1,4 @@
-# Bandit Game Passwords 1-18
+# Bandit Game Passwords 1-20
 
 ### Bandit 0
 **Command:** `ssh bandit0@bandit.labs.overthewire.org -p 2220`  
