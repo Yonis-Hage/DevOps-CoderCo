@@ -3,7 +3,7 @@
 
 ---
 
-## **Commands**
+## Commands
 | Command   | Description                                    |
 |-----------|------------------------------------------------|
 | `ls`      | List files and directories in the current directory. |
@@ -25,15 +25,15 @@
 
 ---
 
-## **Working with Vim**
+## Working with Vim
 Vim is a powerful text editor. Below are some common commands for navigating and editing:
 
-### **Modes in Vim**
-- **Command Mode (default):** For navigation and commands.
-- **Insert Mode:** Enter `i` to start writing.
-- **Visual Mode:** Enter `v` to select text.
+### Modes in Vim
+- Command Mode (default):** For navigation and commands.
+- Insert Mode:** Enter `i` to start writing.
+- Visual Mode:** Enter `v` to select text.
 
-### **Editing Commands**
+### Editing Commands
 | Command  | Description                              |
 |----------|------------------------------------------|
 | `dd`     | Delete the current line.                |
@@ -43,13 +43,13 @@ Vim is a powerful text editor. Below are some common commands for navigating and
 | `u`      | Undo the last change.                   |
 | `r`      | Redo the last undone change.            |
 
-### **Settings**
+### Settings
 | Command              | Description                              |
 |----------------------|------------------------------------------|
 | `:set number`        | Show line numbers.                      |
 | `:set nonumber`      | Hide line numbers.                      |
 
-### **Saving and Exiting**
+### Saving and Exiting
 | Command      | Description                              |
 |--------------|------------------------------------------|
 | `:w`         | Save changes.                           |
@@ -59,29 +59,27 @@ Vim is a powerful text editor. Below are some common commands for navigating and
 
 ---
 
-## **Shells**
-- **Bash:** Default Linux shell.
-- **Zsh:** Highly customizable shell.
+## Shells
+- Bash: Default Linux shell.
+- Zsh: Highly customizable shell.
 
 To check the current shell, use:
-```bash
-echo $SHELL
-```
+`echo $SHELL`
 
 ---
 
-## **Programs and Binaries**
-- **Programs:** Written by developers to perform specific tasks.
-- **Commands:** Small programs.
-- **Binaries (bin):** Compiled versions of programs.
+## Programs and Binaries**
+- Programs: Written by developers to perform specific tasks.
+- Commands: Small programs.
+- Binaries (bin): Compiled versions of programs.
 
 ---
 
-## **Using `sudo` (Super User Do)**
+## Using `sudo` (Super User Do)
 The `sudo` command allows executing tasks with elevated privileges.
 
-### **User Management**
-| Command                                   | Description                              |
+### User Management
+| Command                                   | Description                              
 |-------------------------------------------|------------------------------------------|
 | `sudo useradd <username>`                 | Add a new user.                         |
 | `sudo passwd <username>`                  | Set or update the user password.         |
@@ -93,30 +91,26 @@ The `sudo` command allows executing tasks with elevated privileges.
 
 ---
 
-## **Linux Command Structure**
+## Linux Command Structure
 A typical Linux command has three parts:
+`command [options] [arguments]`
 
-```bash
-command [options] [arguments]
-```
 
-### **Example**
-```bash
-ls -a .
-```
-- **Command:** `ls`
-- **Options:** `-a` (show hidden files)
-- **Arguments:** `.` (current directory)
-## **File Permissions**
+### Example
+`ls -a`
+- Command: `ls`
+- Options: `-a` (show hidden files)
+- Arguments: `.` (current directory)
+## File Permissions
 
-### **Types of Permissions**
+### Types of Permissions
 | Permission | Description      |
 |------------|------------------|
 | `r`        | Read permission. |
 | `w`        | Write permission.|
 | `x`        | Execute permission.|
 
-### **Using `chmod`**
+### Using `chmod`
 You can set file permissions using `chmod` with either binary (numbers) or string (letters):
 - `r = 4`
 - `w = 2`
@@ -131,7 +125,7 @@ The format consists of three parts:
 2. Group rights (second).
 3. Others' rights (third).
 
-### **Other Commands**
+### Other Commands
 | Command      | Description                              |
 |--------------|------------------------------------------|
 | `chown`      | Change file ownership.                  |
@@ -139,7 +133,7 @@ The format consists of three parts:
 
 ---
 
-## **Standard Streams**
+## Standard Streams
 | Stream             | Description                                       |
 |--------------------|---------------------------------------------------|
 | `stdin`            | Standard input (keyboard to running program).     |
@@ -148,10 +142,10 @@ The format consists of three parts:
 
 ---
 
-## **Environment Variables**
+## Environment Variables
 Environment variables store configuration settings and important system information. These variables affect the behavior of processes on your system.
 
-### **Common Environment Variables**
+### Common Environment Variables
 | Variable  | Description                              |
 |-----------|------------------------------------------|
 | `PATH`    | Directories where the system looks for executables. |
@@ -163,15 +157,15 @@ To dereference variables (access their values), use `$`. Only the values are ret
 
 ---
 
-## **Aliases**
+## Aliases
 Aliases are command shortcuts that make frequently used commands quicker to execute.
 
-### **Example**
+### Example
 ```bash
 alias hello='echo "Hello world"'
 ```
 Now, typing `hello` will output "Hello world".
-## **Linux CLI Shortcuts**
+## Linux CLI Shortcuts
 | Shortcut      | Description                              |
 |---------------|------------------------------------------|
 | `history`     | Show all previous commands.             |
