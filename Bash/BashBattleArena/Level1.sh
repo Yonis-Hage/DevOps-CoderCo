@@ -1,0 +1,5 @@
+#! /bin/bash
+
+mkdir arena
+cd arena
+touch warrior.txt mage.txt archer.txt
