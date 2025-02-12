@@ -6,7 +6,7 @@ mkdir -p FileOperation
 # Navigate into the directory
 cd FileOperation
 
-# Create a file named "MyFile.txt"
+# Create a file named "FileOp.txt"
 touch FileOp.txt
 
 # Write some text into the file
