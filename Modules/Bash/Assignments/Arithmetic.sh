@@ -17,8 +17,12 @@ else
     quotient="Undefined (division by zero)"
 fi
 
+# Calculate the hypotenuse using the Pythagorean theorem (so num1^2 + num^2= sqrt of that answer)
+hypotenuse=$(echo "scale=2; sqrt(($num1^2) + ($num2^2))" | bc)
+
 # Display results
 echo "Addition: $num1 + $num2 = $sum"
 echo "Subtraction: $num1 - $num2 = $difference"
 echo "Multiplication: $num1 * $num2 = $product"
 echo "Division: $num1 / $num2 = $quotient"
+echo "Hypotenuse (Pythagorean theorem): sqrt($num1² + $num2²) = $hypotenuse"
